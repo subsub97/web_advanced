@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html leng="en">
   <head>
@@ -10,18 +9,18 @@
   <body>
     <!-- header -->
     <header>
-      <h1>{023}</h1>
       <!-- navigation -->
       <nav>
-        <ul>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Tech Stack</a>
-          <a href="#">Projects</a>
-          <a href="#">Projects</a>
-        </ul>
+        <h1 id="logo">{023}</h1>
 
-        <ul class="sns">
+        <div id="category-items">
+          <a href="#"><b>Home</b></a>
+          <a href="#"><b>About</b></a>
+          <a href="#"><b>Tech Stack</b></a>
+          <a href="#"><b>Projects</b></a>
+        </div>
+
+        <div id="sns-items">
           <a href="#"><img src="image/Vector.svg" alt="github" /></a>
           <a href="#"
             ><img
@@ -33,7 +32,7 @@
               src="image/entypo-social_linkedin-with-circle.svg"
               alt="instagram"
           /></a>
-        </ul>
+        </div>
       </nav>
     </header>
 
@@ -42,11 +41,11 @@
       <div class="intro">
         Hi👋, <br />
         My name is karina<br />
-        <span>recently i broke up</span>
       </div>
 
       <div id="profile_img">
         <img
+          id="karina"
           src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/09/18/1e586277-48ba-4e8a-9b98-d8cdbe075d86.jpg"
           alt="karina"
           width="300"
@@ -57,50 +56,56 @@
     <!-- section : 내기술스택 -->
     <section>
       <h2>기술스택</h2>
-      <div>Technologies I've been working with recently</div>
-      <span>
+      <div id="intro_text">Technologies I've been working with recently</div>
+      <div class="tech_icon">
         <img src="image/vscode-icons_file-type-html.svg" />
         <img src="image/vscode-icons_file-type-css.svg" alt="css" />
         <img src="image/vscode-icons_file-type-js-official.svg" alt="" />
         <img src="image/logos_react.svg" alt="react" />
         <img src="image/redu.svg" alt="" />
         <img src="image/logos_bootstrap.svg" alt="" />
-      </span>
+      </div>
       <br />
-      <span>
+      <div class="tech_icon">
         <img src="image/vscode-icons_file-type-tailwind.svg" alt="tailwind" />
         <img src="image/cib_greensock.svg" alt="cib_greensock" />
         <img src="image/aaa.svg" alt="github" />
         <img src="image/vscode-icons_file-type-vscode.svg" alt="vscode" />
         <img src="image/logos_git-icon.svg" alt="git-icon" />
         <img src="image/logos_sass.svg" alt="saas" />
-      </span>
+      </div>
 
       <!-- 아티클 : 블로그 내용 -->
       <section>
-        <h3>Projects</h3>
-        <span>Things I've built so far</span>
+        <h1 id="article_title">ZOO</h1>
+        <span></span>
         <div class="article">
           <article>
-            <img
-              src="https://media.istockphoto.com/id/1575037909/ko/%EC%82%AC%EC%A7%84/%ED%95%9C%EA%B5%AD%EC%9D%98-%ED%96%89%EB%B3%B5%ED%95%9C-%EC%9E%90%EC%9D%B4%EC%96%B8%ED%8A%B8-%ED%8C%AC%EB%8D%94-%ED%91%B8%EB%B0%94%EC%98%A4.jpg?s=612x612&w=is&k=20&c=TzR42WemsdDKziVnnVg1_7QYPBfoZiw8xcTIkjb0-RA="
-              alt="Fubao"
-              width="375"
-              height="260"
-            />
-            <br />
-            중국가기전 푸바오
+            <div id="fu">
+              <img
+                src="https://media.istockphoto.com/id/1575037909/ko/%EC%82%AC%EC%A7%84/%ED%95%9C%EA%B5%AD%EC%9D%98-%ED%96%89%EB%B3%B5%ED%95%9C-%EC%9E%90%EC%9D%B4%EC%96%B8%ED%8A%B8-%ED%8C%AC%EB%8D%94-%ED%91%B8%EB%B0%94%EC%98%A4.jpg?s=612x612&w=is&k=20&c=TzR42WemsdDKziVnnVg1_7QYPBfoZiw8xcTIkjb0-RA="
+                alt="Fubao"
+                width="375"
+                height="260"
+              />
+              <br />
+              중국가기전 푸바오
+            </div>
           </article>
+
           <article>
-            <img
-              src="https://media.istockphoto.com/id/1627592298/ko/%EC%82%AC%EC%A7%84/%EC%9E%90%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%95%94%EC%BB%B7-%ED%8C%AC%EB%8D%94-%EC%95%84%EC%9D%B4%EB%B0%94%EC%98%A4-%ED%95%9C%EA%B5%AD.jpg?s=612x612&w=is&k=20&c=t5R5oXfTH4WXAOKCvMqMdWpg98Q74oWGQjrCvyKhDws="
-              alt="Ibao"
-              width="375"
-              height="260"
-            />
-            <br />
-            푸바오 엄마 아이바오
+            <div id="ibao">
+              <img
+                src="https://media.istockphoto.com/id/1627592298/ko/%EC%82%AC%EC%A7%84/%EC%9E%90%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%95%94%EC%BB%B7-%ED%8C%AC%EB%8D%94-%EC%95%84%EC%9D%B4%EB%B0%94%EC%98%A4-%ED%95%9C%EA%B5%AD.jpg?s=612x612&w=is&k=20&c=t5R5oXfTH4WXAOKCvMqMdWpg98Q74oWGQjrCvyKhDws="
+                alt="Ibao"
+                width="375"
+                height="260"
+              />
+              <br />
+              푸바오 엄마 아이바오
+            </div>
           </article>
+
           <article>
             <img
               src="https://i.namu.wiki/i/LYO3nlyLQe_BMFe9_2oIr7D0X9zaO6R65M42p-SdOPjqmFNOT_HngYJ8RMbqD4-lLEmOwDsCpSYM4ML0JgSFuqBiZ8qXQ2ARMQh3InD0hQA_0ycb5YSSx8ULpCaz8T23qYQvigpEAg3-MeTnuv_SG1yEaRNZTplSkf34sz8x_9s.webp"
@@ -132,5 +137,15 @@
       ><img src="image/entypo-social_linkedin-with-circle.svg" alt="instagram"
     /></a>
   </ul>
+  <hr />
+
+  <nav>
+    <div id="category-items">
+      <a href="box_model.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Tech Stack</a>
+      <a href="#">Projects</a>
+      <a href="#">Projects</a>
+    </div>
+  </nav>
 </footer>
-======= >>>>>>> 6d49ae7 (remove : introduce.html)
