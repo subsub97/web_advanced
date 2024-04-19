@@ -1,9 +1,46 @@
-nav {
+.nav {
   width: 95px;
   height: 60px;
   background: aqua;
 }
 
-body {
-  background: blue;
+.introduce{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
 }
+
+#logo, #category-items {
+  font-size: 16px;
+}
+
+#sns-items {
+  display: none;
+}
+
+
+body {
+  margin: 0px;
+  background: linear-gradient(to bottom, #e0efe3 0%, #5f9a60 50%, #1a472a 100%);
+}
+
+.intro {
+  padding : 0px;
+  padding-top : 30px;
+  padding-bottom: 30px;
+}
+
+.sns{
+  padding : 0px;
+}
+
+.footer-nav {
+  justify-content: space-around;
+  
+}
+#category-items {
+  justify-content: space-between;
+}
+
+
