@@ -1,9 +1,27 @@
-nav {
+.nav {
   width: 95px;
   height: 60px;
   background: aqua;
 }
 
-body {
-  background: blue;
+.introduce{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
 }
+
+#logo, #category-items {
+  font-size: 14px;
+}
+
+#sns-items {
+  display: none;
+}
+
+
+body {
+  margin: 0px;
+}
+
+
